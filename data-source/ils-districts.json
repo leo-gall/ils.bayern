@@ -1,0 +1,597 @@
+{
+  "_comment": "Hand-curated mapping of Bavaria's 26 Integrierte Leitstellen (ILS) to the Landkreise/kreisfreie Städte each is responsible for. Sources: https://www.notruf112.bayern.de/ils/, https://de.wikipedia.org/wiki/Liste_der_BOS-Leitstellen (as researched 2026-07-23). District 'match' strings are the bare German administrative names used to match OpenStreetMap admin_level=6 boundary relations in scripts/fetch-data.mjs.",
+  "ils": [
+    {
+      "id": "allgaeu",
+      "name": "ILS Allgäu",
+      "city": "Kempten",
+      "website": "https://www.ils-allgaeu.de",
+      "districts": [
+        {
+          "match": "Kempten (Allgäu)",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Kaufbeuren",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Lindau",
+          "type": "landkreis"
+        },
+        {
+          "match": "Oberallgäu",
+          "type": "landkreis"
+        },
+        {
+          "match": "Ostallgäu",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "amberg",
+      "name": "ILS Amberg",
+      "city": "Amberg",
+      "website": "https://www.ils-amberg.de",
+      "districts": [
+        {
+          "match": "Amberg",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Amberg-Sulzbach",
+          "type": "landkreis"
+        },
+        {
+          "match": "Schwandorf",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "ansbach",
+      "name": "ILS Ansbach",
+      "city": "Ansbach",
+      "website": "https://www.ils-ansbach.de",
+      "districts": [
+        {
+          "match": "Ansbach",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Ansbach",
+          "type": "landkreis"
+        },
+        {
+          "match": "Neustadt an der Aisch-Bad Windsheim",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "augsburg",
+      "name": "ILS Augsburg",
+      "city": "Augsburg",
+      "website": "https://www.augsburg.de",
+      "districts": [
+        {
+          "match": "Augsburg",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Augsburg",
+          "type": "landkreis"
+        },
+        {
+          "match": "Aichach-Friedberg",
+          "type": "landkreis"
+        },
+        {
+          "match": "Dillingen an der Donau",
+          "type": "landkreis"
+        },
+        {
+          "match": "Donau-Ries",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "bamberg-forchheim",
+      "name": "ILS Bamberg-Forchheim",
+      "city": "Bamberg",
+      "website": "https://www.ils-bamberg.de",
+      "districts": [
+        {
+          "match": "Bamberg",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Bamberg",
+          "type": "landkreis"
+        },
+        {
+          "match": "Forchheim",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "bayerischer-untermain",
+      "name": "ILS Bayerischer Untermain",
+      "city": "Aschaffenburg",
+      "website": "https://www.ils-untermain.de",
+      "districts": [
+        {
+          "match": "Aschaffenburg",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Aschaffenburg",
+          "type": "landkreis"
+        },
+        {
+          "match": "Miltenberg",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "bayreuth-kulmbach",
+      "name": "ILS Bayreuth-Kulmbach",
+      "city": "Bayreuth",
+      "website": "https://www.leitstelle-bayreuth.de",
+      "districts": [
+        {
+          "match": "Bayreuth",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Bayreuth",
+          "type": "landkreis"
+        },
+        {
+          "match": "Kulmbach",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "coburg",
+      "name": "ILS Coburg",
+      "city": "Coburg",
+      "website": "https://ils-coburg.brk.de",
+      "districts": [
+        {
+          "match": "Coburg",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Coburg",
+          "type": "landkreis"
+        },
+        {
+          "match": "Kronach",
+          "type": "landkreis"
+        },
+        {
+          "match": "Lichtenfels",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "donau-iller",
+      "name": "ILS Donau-Iller",
+      "city": "Krumbach",
+      "website": "https://www.rettungsdienst.brk.de",
+      "districts": [
+        {
+          "match": "Memmingen",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Günzburg",
+          "type": "landkreis"
+        },
+        {
+          "match": "Neu-Ulm",
+          "type": "landkreis"
+        },
+        {
+          "match": "Unterallgäu",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "erding",
+      "name": "ILS Erding",
+      "city": "Erding",
+      "website": "https://www.ils-erding.de",
+      "districts": [
+        {
+          "match": "Erding",
+          "type": "landkreis"
+        },
+        {
+          "match": "Ebersberg",
+          "type": "landkreis"
+        },
+        {
+          "match": "Freising",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "fuerstenfeldbruck",
+      "name": "ILS Fürstenfeldbruck",
+      "city": "Fürstenfeldbruck",
+      "website": "https://www.ils-ffb.de",
+      "districts": [
+        {
+          "match": "Fürstenfeldbruck",
+          "type": "landkreis"
+        },
+        {
+          "match": "Dachau",
+          "type": "landkreis"
+        },
+        {
+          "match": "Starnberg",
+          "type": "landkreis"
+        },
+        {
+          "match": "Landsberg am Lech",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "hochfranken",
+      "name": "ILS Hochfranken",
+      "city": "Hof",
+      "website": "https://www.rettungsdienst.brk.de",
+      "districts": [
+        {
+          "match": "Hof",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Hof",
+          "type": "landkreis"
+        },
+        {
+          "match": "Wunsiedel im Fichtelgebirge",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "ingolstadt",
+      "name": "ILS Region Ingolstadt",
+      "city": "Ingolstadt",
+      "website": "https://www.ils-ingolstadt.de",
+      "districts": [
+        {
+          "match": "Ingolstadt",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Eichstätt",
+          "type": "landkreis"
+        },
+        {
+          "match": "Neuburg-Schrobenhausen",
+          "type": "landkreis"
+        },
+        {
+          "match": "Pfaffenhofen an der Ilm",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "landshut",
+      "name": "ILS Landshut",
+      "city": "Landshut",
+      "website": "https://zrf-landshut.bayern",
+      "districts": [
+        {
+          "match": "Landshut",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Landshut",
+          "type": "landkreis"
+        },
+        {
+          "match": "Dingolfing-Landau",
+          "type": "landkreis"
+        },
+        {
+          "match": "Kelheim",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "mittelfranken-sued",
+      "name": "ILS Mittelfranken-Süd",
+      "city": "Schwabach",
+      "website": "https://ils-mittelfranken-sued.brk.de",
+      "districts": [
+        {
+          "match": "Schwabach",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Roth",
+          "type": "landkreis"
+        },
+        {
+          "match": "Weißenburg-Gunzenhausen",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "muenchen",
+      "name": "ILS München",
+      "city": "München",
+      "website": "https://www.muenchen.de",
+      "districts": [
+        {
+          "match": "München",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "München",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "nordoberpfalz",
+      "name": "ILS Nordoberpfalz",
+      "city": "Weiden in der Oberpfalz",
+      "website": "https://www.ils-nordoberpfalz.de",
+      "districts": [
+        {
+          "match": "Weiden in der Oberpfalz",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Neustadt an der Waldnaab",
+          "type": "landkreis"
+        },
+        {
+          "match": "Tirschenreuth",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "nuernberg",
+      "name": "ILS Nürnberg",
+      "city": "Nürnberg",
+      "website": "https://www.nuernberg.de",
+      "districts": [
+        {
+          "match": "Nürnberg",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Fürth",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Erlangen",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Nürnberger Land",
+          "type": "landkreis"
+        },
+        {
+          "match": "Fürth",
+          "type": "landkreis"
+        },
+        {
+          "match": "Erlangen-Höchstadt",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "oberland",
+      "name": "ILS Oberland",
+      "city": "Weilheim",
+      "website": "https://ils-oberland.brk.de",
+      "districts": [
+        {
+          "match": "Weilheim-Schongau",
+          "type": "landkreis"
+        },
+        {
+          "match": "Bad Tölz-Wolfratshausen",
+          "type": "landkreis"
+        },
+        {
+          "match": "Garmisch-Partenkirchen",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "passau",
+      "name": "ILS Passau",
+      "city": "Passau",
+      "website": "https://www.ils-passau.de",
+      "districts": [
+        {
+          "match": "Passau",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Passau",
+          "type": "landkreis"
+        },
+        {
+          "match": "Freyung-Grafenau",
+          "type": "landkreis"
+        },
+        {
+          "match": "Rottal-Inn",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "regensburg",
+      "name": "ILS Regensburg",
+      "city": "Regensburg",
+      "website": "https://www.regensburg.de",
+      "districts": [
+        {
+          "match": "Regensburg",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Regensburg",
+          "type": "landkreis"
+        },
+        {
+          "match": "Cham",
+          "type": "landkreis"
+        },
+        {
+          "match": "Neumarkt in der Oberpfalz",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "rosenheim",
+      "name": "ILS Rosenheim",
+      "city": "Rosenheim",
+      "website": "https://www.rosenheim.de",
+      "districts": [
+        {
+          "match": "Rosenheim",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Rosenheim",
+          "type": "landkreis"
+        },
+        {
+          "match": "Miesbach",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "schweinfurt",
+      "name": "ILS Schweinfurt",
+      "city": "Schweinfurt",
+      "website": "https://www.rettungsdienst.brk.de",
+      "districts": [
+        {
+          "match": "Schweinfurt",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Schweinfurt",
+          "type": "landkreis"
+        },
+        {
+          "match": "Haßberge",
+          "type": "landkreis"
+        },
+        {
+          "match": "Rhön-Grabfeld",
+          "type": "landkreis"
+        },
+        {
+          "match": "Bad Kissingen",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "straubing",
+      "name": "ILS Straubing",
+      "city": "Straubing",
+      "website": "https://www.rettungsdienst.brk.de",
+      "districts": [
+        {
+          "match": "Straubing",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Straubing-Bogen",
+          "type": "landkreis"
+        },
+        {
+          "match": "Deggendorf",
+          "type": "landkreis"
+        },
+        {
+          "match": "Regen",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "traunstein",
+      "name": "ILS Traunstein",
+      "city": "Traunstein",
+      "website": "https://www.ils-traunstein.de",
+      "districts": [
+        {
+          "match": "Traunstein",
+          "type": "landkreis"
+        },
+        {
+          "match": "Altötting",
+          "type": "landkreis"
+        },
+        {
+          "match": "Berchtesgadener Land",
+          "type": "landkreis"
+        },
+        {
+          "match": "Mühldorf am Inn",
+          "type": "landkreis"
+        }
+      ]
+    },
+    {
+      "id": "wuerzburg",
+      "name": "ILS Würzburg",
+      "city": "Würzburg",
+      "website": "https://www.wuerzburg.de",
+      "districts": [
+        {
+          "match": "Würzburg",
+          "type": "kreisfreie_stadt"
+        },
+        {
+          "match": "Würzburg",
+          "type": "landkreis"
+        },
+        {
+          "match": "Kitzingen",
+          "type": "landkreis"
+        },
+        {
+          "match": "Main-Spessart",
+          "type": "landkreis"
+        }
+      ]
+    }
+  ]
+}

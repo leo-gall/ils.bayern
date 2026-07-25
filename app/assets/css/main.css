@@ -1,0 +1,172 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* Explicit @source paths (Tailwind's automatic detection wasn't reliably
+   picking up app/pages and app/components here). Bracket characters in Nuxt's
+   dynamic-route filenames (e.g. [ilsId].vue) must be glob-escaped or Tailwind's
+   scanner misparses them as a character class and silently skips the file. */
+@source "../../pages/*.vue";
+@source "../../pages/leitstelle/\[ilsId\].vue";
+@source "../../components/*/*.vue";
+/* Nuxt UI's component themes (incl. data-[state=...] animation classes like the
+   Modal/Slideover open/close transitions) live as plain strings in these generated
+   theme files, not directly in a .vue template - without this they silently never
+   get generated, so things like slideover close animations render as "stuck open". */
+@source "/Users/leogall/development/ils.bayern/.nuxt/ui/*.ts";
+
+
+@theme static {
+  --font-sans: 'Trebuchet MS', 'Segoe UI', Tahoma, Verdana, Arial, sans-serif;
+
+  --color-green-50: #EFFDF5;
+  --color-green-100: #D9FBE8;
+  --color-green-200: #B3F5D1;
+  --color-green-300: #75EDAE;
+  --color-green-400: #00DC82;
+  --color-green-500: #00C16A;
+  --color-green-600: #00A155;
+  --color-green-700: #007F45;
+  --color-green-800: #016538;
+  --color-green-900: #0A5331;
+  --color-green-950: #052E16;
+
+  /* Late-2000s Web 2.0 loved big, bubbly rounded corners on everything. */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+}
+
+/* ---------------------------------------------------------------------------
+ * "Web 2.0" (c. 2007) reskin: glossy gradient buttons with a bevel + shine,
+ * drop-shadowed panels, a soft blue page backdrop, and an embossed header bar -
+ * the aesthetic of the era right before flat design took over.
+ * ------------------------------------------------------------------------- */
+
+/* Nuxt UI paints an opaque background-color straight onto <body>, which would
+   otherwise hide anything set on <html> - set the gradient as a background-image
+   on body itself so it layers on top of (rather than behind) that color. */
+body {
+  background-image: linear-gradient(180deg, #eaf3fc 0%, #d9e9f8 220px, #f4f8fc 500px, #eef4fa 100%);
+  background-attachment: fixed;
+}
+
+.dark body {
+  background-image: linear-gradient(180deg, #1b2836 0%, #172230 220px, #101823 500px, #0e151e 100%);
+  background-attachment: fixed;
+}
+
+body {
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.dark body {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+/* Glossy bevel + shine on every solid-colored button/badge (Nuxt UI applies
+   bg-primary/bg-secondary/etc as a plain background-color utility, so layering
+   a gradient + shadow on top via background-image/box-shadow never fights
+   Tailwind's specificity - it just paints over the flat color). */
+button.bg-primary,
+button.bg-secondary,
+button.bg-success,
+button.bg-info,
+button.bg-warning,
+button.bg-error,
+.bg-primary {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0.12) 45%, rgba(0, 0, 0, 0.04) 55%, rgba(0, 0, 0, 0.14) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 1px 3px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+}
+
+button.bg-primary:hover,
+button.bg-secondary:hover,
+button.bg-success:hover,
+button.bg-info:hover,
+button.bg-warning:hover,
+button.bg-error:hover {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.18) 45%, rgba(0, 0, 0, 0.04) 55%, rgba(0, 0, 0, 0.1) 100%);
+}
+
+button.bg-primary:active,
+button.bg-secondary:active,
+button.bg-success:active,
+button.bg-info:active,
+button.bg-warning:active,
+button.bg-error:active {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0.14) 100%);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+/* Outline/soft/ghost buttons get a lighter bevel so they read as raised chrome too. */
+button:not(.bg-primary):not(.bg-secondary):not(.bg-success):not(.bg-info):not(.bg-warning):not(.bg-error) {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 1px 1px rgba(0, 0, 0, 0.06);
+}
+
+/* Bordered/rounded panels (cards, list rows, message bubbles, the Notrufe/Funk
+   boxes, dialogs) get the classic Web 2.0 "lifted box" treatment. */
+.border-default,
+.rounded-md.border,
+.rounded-lg.border {
+  box-shadow: 0 1px 4px rgba(20, 40, 70, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 60px);
+}
+
+.dark .border-default,
+.dark .rounded-md.border,
+.dark .rounded-lg.border {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 60px);
+}
+
+/* Chat/radio bubbles - a bit of shine so they look like little glassy tags. */
+.bg-elevated {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+/* The app header reads as a glossy toolbar, like a browser chrome bar of the era. */
+header {
+  background-image: linear-gradient(180deg, #fbfdff 0%, #dfeaf6 100%);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.8) inset, 0 2px 5px rgba(20, 40, 70, 0.25);
+  border-bottom: 1px solid #9fb8d1 !important;
+}
+
+.dark header {
+  background-image: linear-gradient(180deg, #26333f 0%, #141c24 100%);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset, 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #030712 !important;
+}
+
+/* Inputs get an inset "carved in" look instead of a flat outline. */
+input, textarea, select {
+  box-shadow: inset 0 1px 3px rgba(20, 40, 70, 0.18) !important;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #dfe8f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #b9c9db, #8fa4bb);
+  border: 2px solid #dfe8f2;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #a8bbd0, #7c93ac);
+}

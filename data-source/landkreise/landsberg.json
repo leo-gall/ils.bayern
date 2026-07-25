@@ -1,0 +1,1459 @@
+[
+  {
+    "id": "ff-apfeldorf",
+    "name": "Freiwillige Feuerwehr Apfeldorf",
+    "adresse": {
+      "strasse": "Schelmengraben 6",
+      "plz": "86974",
+      "ort": "Apfeldorf"
+    },
+    "lat": 47.8946104,
+    "lon": 10.9342289,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Apfeldorf 11/01",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Apfeldorf 40/01",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Apfeldorf 48/01",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-denklingen",
+    "name": "Freiwillige Feuerwehr Denklingen",
+    "adresse": {
+      "strasse": "Hauptstr. 9",
+      "plz": "86920",
+      "ort": "Denklingen"
+    },
+    "lat": 47.9147468,
+    "lon": 10.8509285,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Denklingen 40/1",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Denklingen 55/1",
+        "typ": "GW-L"
+      }
+    ]
+  },
+  {
+    "id": "ff-dienhausen",
+    "name": "Freiwillige Feuerwehr Dienhausen",
+    "adresse": {
+      "strasse": "Weihertalstraße 2b",
+      "plz": "86920",
+      "ort": "Denklingen"
+    },
+    "lat": 47.8888302,
+    "lon": 10.8344129,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Dienhausen 44/01",
+        "typ": "TSF"
+      }
+    ]
+  },
+  {
+    "id": "ff-epfach",
+    "name": "Freiwillige Feuerwehr Epfach",
+    "adresse": {
+      "strasse": "St. Florianplatz 1",
+      "plz": "86920",
+      "ort": "Epfach"
+    },
+    "lat": 47.9121603,
+    "lon": 10.9099943,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Epfach 43/01",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-diessen",
+    "name": "Freiwillige Feuerwehr Dießen a. A.",
+    "adresse": {
+      "strasse": "Johannisstraße 24",
+      "plz": "86911",
+      "ort": "Dießen am Ammersee"
+    },
+    "lat": 47.9461932,
+    "lon": 11.1040946,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Dießen 10/01",
+        "typ": "KdoW"
+      },
+      {
+        "funkrufname": "Florian Dießen 11/01",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Dießen 30/01",
+        "typ": "DLK"
+      },
+      {
+        "funkrufname": "Florian Dießen 40/01",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Dießen 49/01",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Dießen 99/01",
+        "typ": "Boot"
+      },
+      {
+        "funkrufname": "Florian Dießen 99/02",
+        "typ": "Boot"
+      },
+      {
+        "funkrufname": "Florian Landsberg Land 12/01",
+        "typ": "ELW2"
+      }
+    ]
+  },
+  {
+    "id": "ff-dettenhofen",
+    "name": "Freiwillige Feuerwehr Dettenhofen",
+    "adresse": {
+      "strasse": "St.-Martin-Straße 10",
+      "plz": "86911",
+      "ort": "Dießen am Ammersee"
+    },
+    "lat": 47.9675396,
+    "lon": 11.0249774,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Dettenhofen 11/1",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Dettenhofen 43/1",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-dettenschwang",
+    "name": "Freiwillige Feuerwehr Dettenschwang",
+    "adresse": {
+      "strasse": "Alpenblickstraße 8",
+      "plz": "86911",
+      "ort": "Dießen am Ammersee"
+    },
+    "lat": 47.9496119,
+    "lon": 11.013054,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Dettenschwang 44/1",
+        "typ": "TSF"
+      }
+    ]
+  },
+  {
+    "id": "ff-obermuehlhausen",
+    "name": "Freiwillige Feuerwehr Obermühlhausen",
+    "adresse": {
+      "strasse": "Bergstraße 11",
+      "plz": "86911",
+      "ort": "Dießen am Ammersee"
+    },
+    "lat": 47.9846031,
+    "lon": 10.9962977,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Obermühlhausen 46/1",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-riederau",
+    "name": "Freiwillige Feuerwehr Riederau",
+    "adresse": {
+      "strasse": "Schulanger 5",
+      "plz": "86911",
+      "ort": "Dießen am Ammersee"
+    },
+    "lat": 47.9837839,
+    "lon": 11.0936768,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Riederau 43/1",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-st-georgen",
+    "name": "Freiwillige Feuerwehr St. Georgen",
+    "adresse": {
+      "strasse": "St.-Georg-Straße 9",
+      "plz": "86911",
+      "ort": "Dießen am Ammersee"
+    },
+    "lat": 47.9442747,
+    "lon": 11.0884963,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian St. Georgen 41/1",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-eching",
+    "name": "Freiwillige Feuerwehr Eching a. A.",
+    "adresse": {
+      "strasse": "Am Windachfeld 6",
+      "plz": "82279",
+      "ort": "Eching am Ammersee"
+    },
+    "lat": 48.0781558,
+    "lon": 11.1141923,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Eching 11/1",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Eching 40/1",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Eching 46/1",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-egling",
+    "name": "Freiwillige Feuerwehr Egling a.d.Paar",
+    "adresse": {
+      "strasse": "Bierweg 23",
+      "plz": "86492",
+      "ort": "Egling an der Paar"
+    },
+    "lat": 48.1876303,
+    "lon": 10.9730083,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Egling an der Paar 40/01",
+        "typ": "HLF"
+      }
+    ]
+  },
+  {
+    "id": "ff-eresing",
+    "name": "Freiwillige Feuerwehr Eresing",
+    "adresse": {
+      "strasse": "Kaspar-Ett-Str. 24a",
+      "plz": "86922",
+      "ort": "Eresing"
+    },
+    "lat": 48.0884366,
+    "lon": 11.0244311,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Eresing 11/1",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Eresing 40/1",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-pflaumdorf",
+    "name": "Freiwillige Feuerwehr Pflaumdorf",
+    "adresse": {
+      "strasse": "Beuerner Straße 5",
+      "plz": "86926",
+      "ort": "Eching am Ammersee"
+    },
+    "lat": 48.0869771,
+    "lon": 11.058714,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Pflaumdorf 46/01",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-st-ottilien",
+    "name": "Freiwillige Feuerwehr St. Ottilien",
+    "adresse": {
+      "strasse": "Erzabtei 1",
+      "plz": "86941",
+      "ort": "St. Ottilien"
+    },
+    "lat": 48.0946097,
+    "lon": 11.0436944,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Eresing 55/01",
+        "typ": "GW-L"
+      }
+    ]
+  },
+  {
+    "id": "ff-finning",
+    "name": "Freiwillige Feuerwehr Finning",
+    "adresse": {
+      "strasse": "Mühlstraße 5",
+      "plz": "86923",
+      "ort": "Finning"
+    },
+    "lat": 48.021049,
+    "lon": 11.0135594,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Finning 40/01",
+        "typ": "LF"
+      },
+      {
+        "funkrufname": "Florian Finning 56/01",
+        "typ": "GW-L"
+      }
+    ]
+  },
+  {
+    "id": "ff-entraching",
+    "name": "Freiwillige Feuerwehr Entraching",
+    "adresse": {
+      "strasse": "Laichstraße 8",
+      "plz": "86923",
+      "ort": "Finning"
+    },
+    "lat": 48.0125208,
+    "lon": 11.0267112,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Entraching 46/1",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-leeder",
+    "name": "Freiwillige Feuerwehr Leeder",
+    "adresse": {
+      "strasse": "Schulstraße 2",
+      "plz": "86925",
+      "ort": "Fuchstal"
+    },
+    "lat": 47.9366077,
+    "lon": 10.8259356,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Leeder 11/01",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Leeder 40/01",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Leeder 56/01",
+        "typ": "GW-L"
+      }
+    ]
+  },
+  {
+    "id": "ff-seestall",
+    "name": "Freiwillige Feuerwehr Seestall",
+    "adresse": {
+      "strasse": "Ortstraße 19",
+      "plz": "86925",
+      "ort": "Fuchstal"
+    },
+    "lat": 47.9650377,
+    "lon": 10.8650476,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Seestall 47/01",
+        "typ": "MLF"
+      }
+    ]
+  },
+  {
+    "id": "ff-asch",
+    "name": "Freiwillige Feuerwehr Asch",
+    "adresse": {
+      "strasse": "Dorfstraße 63a",
+      "plz": "86925",
+      "ort": "Fuchstal"
+    },
+    "lat": 47.9484541,
+    "lon": 10.8293399,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Asch 46/1",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-geltendorf",
+    "name": "Freiwillige Feuerwehr Geltendorf",
+    "adresse": {
+      "strasse": "Neuenstraße 9",
+      "plz": "82269",
+      "ort": "Geltendorf"
+    },
+    "lat": 48.122164,
+    "lon": 11.0295543,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Geltendorf 11/01",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Geltendorf 40/01",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Geltendorf 48/01",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-hausen",
+    "name": "Freiwillige Feuerwehr Hausen b. Geltendorf",
+    "adresse": {
+      "strasse": "Feuerhausstraße 4",
+      "plz": "82269",
+      "ort": "Geltendorf"
+    },
+    "lat": 48.1403966,
+    "lon": 11.0163175,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Hausen 46/1",
+        "typ": "TSF-W"
+      },
+      {
+        "funkrufname": "Florian Hausen 14-1",
+        "typ": "MTW"
+      }
+    ]
+  },
+  {
+    "id": "ff-kaltenberg",
+    "name": "Freiwillige Feuerwehr Kaltenberg",
+    "adresse": {
+      "strasse": "Walleshauser Straße 39",
+      "plz": "82269",
+      "ort": "Geltendorf"
+    },
+    "lat": 48.1293805,
+    "lon": 10.9915648,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Kaltenberg 46/1",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-walleshausen",
+    "name": "Freiwillige Feuerwehr Walleshausen",
+    "adresse": {
+      "strasse": "Dr.-Hundt-Straße 14",
+      "plz": "82269",
+      "ort": "Geltendorf"
+    },
+    "lat": 48.1494788,
+    "lon": 10.9801659,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Walleshausen 11/01",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Walleshausen 43/01",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-greifenberg",
+    "name": "Freiwillige Feuerwehr Greifenberg",
+    "adresse": {
+      "strasse": "Föhrenweg 8",
+      "plz": "86926",
+      "ort": "Greifenberg"
+    },
+    "lat": 48.0725082,
+    "lon": 11.0870839,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Greifenberg 40/01",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Greifenberg 43/01",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-hofstetten",
+    "name": "Freiwillige Feuerwehr Hofstetten",
+    "adresse": {
+      "strasse": "Pfarrer-Jaumann-Straße 19a",
+      "plz": "86928",
+      "ort": "Hofstetten"
+    },
+    "lat": 48.0071025,
+    "lon": 10.9693215,
+    "typ": "FF",
+    "einsatzmittel": []
+  },
+  {
+    "id": "ff-hagenheim",
+    "name": "Freiwillige Feuerwehr Hagenheim",
+    "adresse": {
+      "strasse": "Forststraße 25",
+      "plz": "86928",
+      "ort": "Hofstetten"
+    },
+    "lat": 47.9947744,
+    "lon": 10.9501054,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Hagenheim 48/01",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-hurlach",
+    "name": "Freiwillige Feuerwehr Hurlach",
+    "adresse": {
+      "strasse": "Kusterer Straße 21",
+      "plz": "86857",
+      "ort": "Hurlach"
+    },
+    "lat": 48.1224644,
+    "lon": 10.8128947,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Hurlach 10/01",
+        "typ": "KdoW"
+      },
+      {
+        "funkrufname": "Florian Hurlach 40/01",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Hurlach 44/01",
+        "typ": "TSF-L"
+      },
+      {
+        "funkrufname": "Florian Hurlach 55/01",
+        "typ": "GW-L"
+      }
+    ]
+  },
+  {
+    "id": "ff-igling",
+    "name": "Freiwillige Feuerwehr Igling",
+    "adresse": {
+      "strasse": "Donnersbergstraße 3",
+      "plz": "86859",
+      "ort": "Igling"
+    },
+    "lat": 48.0733639,
+    "lon": 10.8124251,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Igling 14/01",
+        "typ": "MTW"
+      },
+      {
+        "funkrufname": "Florian Igling 40/1",
+        "typ": "HLF"
+      }
+    ]
+  },
+  {
+    "id": "ff-kaufering",
+    "name": "Freiwillige Feuerwehr Kaufering",
+    "adresse": {
+      "strasse": "Florianstraße 1",
+      "plz": "86916",
+      "ort": "Kaufering"
+    },
+    "lat": 48.0846904,
+    "lon": 10.8580546,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Kaufering 11/01",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Kaufering 12/01",
+        "typ": "ELW"
+      },
+      {
+        "funkrufname": "Florian Kaufering 23/01",
+        "typ": "TLF"
+      },
+      {
+        "funkrufname": "Florian Kaufering 30/01",
+        "typ": "DLK"
+      },
+      {
+        "funkrufname": "Florian Kaufering 40/01",
+        "typ": "LF"
+      },
+      {
+        "funkrufname": "Florian Kaufering 40/02",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Kaufering 56/01",
+        "typ": "GW-L"
+      }
+    ]
+  },
+  {
+    "id": "ff-landsberg",
+    "name": "Freiwillige Feuerwehr Landsberg am Lech",
+    "adresse": {
+      "strasse": "Saarburgstraße 2",
+      "plz": "86899",
+      "ort": "Landsberg am Lech"
+    },
+    "lat": 48.0422079,
+    "lon": 10.8678842,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Landsberg 10/01",
+        "typ": "KdoW"
+      },
+      {
+        "funkrufname": "Florian Landsberg 11/01",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Landsberg 23/01",
+        "typ": "TLF"
+      },
+      {
+        "funkrufname": "Florian Landsberg 30/01",
+        "typ": "DLK"
+      }
+    ]
+  },
+  {
+    "id": "ff-ellighofen",
+    "name": "Freiwillige Feuerwehr Ellighofen",
+    "adresse": {
+      "strasse": "Fuchstalstr. 22",
+      "plz": "86899",
+      "ort": "Landsberg am Lech"
+    },
+    "lat": 47.9988073,
+    "lon": 10.8344051,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Ellighofen 44/1",
+        "typ": "TSF"
+      }
+    ]
+  },
+  {
+    "id": "ff-obermeitingen",
+    "name": "Freiwillige Feuerwehr Obermeitingen",
+    "adresse": {
+      "strasse": "Hauptstraße 34",
+      "plz": "86836",
+      "ort": "Obermeitingen"
+    },
+    "lat": 48.1477364,
+    "lon": 10.806716,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Obermeitingen 40/01",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Obermeitingen 48/01",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-penzing",
+    "name": "Freiwillige Feuerwehr Penzing",
+    "adresse": {
+      "strasse": "Weiherstraße",
+      "plz": "86929",
+      "ort": "Penzing"
+    },
+    "lat": 48.075156,
+    "lon": 10.9285007,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Penzing 55/01",
+        "typ": "GW-L"
+      }
+    ]
+  },
+  {
+    "id": "ff-ramsach",
+    "name": "Freiwillige Feuerwehr Ramsach",
+    "adresse": {
+      "strasse": "Dorfstraße 42",
+      "plz": "86929",
+      "ort": "Penzing"
+    },
+    "lat": 48.0825348,
+    "lon": 10.9682209,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Ramsach 44/1",
+        "typ": "TSF"
+      }
+    ]
+  },
+  {
+    "id": "ff-epfenhausen",
+    "name": "Freiwillige Feuerwehr Epfenhausen",
+    "adresse": {
+      "strasse": "Raiffeisenweg 1",
+      "plz": "86929",
+      "ort": "Penzing"
+    },
+    "lat": 48.0996724,
+    "lon": 10.9106436,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Epfenhausen 46/1",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-prittriching",
+    "name": "Freiwillige Feuerwehr Prittriching",
+    "adresse": {
+      "strasse": "Hauptstraße 43",
+      "plz": "86931",
+      "ort": "Prittriching"
+    },
+    "lat": 48.2070204,
+    "lon": 10.92941,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Prittriching 11/1",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Prittriching 40/1",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Prittriching 43/1",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-winkl",
+    "name": "Freiwillige Feuerwehr Winkl",
+    "adresse": {
+      "strasse": "Scheuringer Straße 5",
+      "plz": "86931",
+      "ort": "Prittriching"
+    },
+    "lat": 48.1736633,
+    "lon": 10.9194024,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Winkl 46/01",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-puergen",
+    "name": "Freiwillige Feuerwehr Pürgen",
+    "adresse": {
+      "strasse": "St.-Florian-Weg 2",
+      "plz": "86932",
+      "ort": "Pürgen"
+    },
+    "lat": 48.0287474,
+    "lon": 10.9222845,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Pürgen 40/1",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Pürgen 11/1",
+        "typ": "MZF"
+      }
+    ]
+  },
+  {
+    "id": "ff-lengenfeld",
+    "name": "Freiwillige Feuerwehr Lengenfeld",
+    "adresse": {
+      "strasse": "Kalkofenstr. 1",
+      "plz": "86932",
+      "ort": "Pürgen"
+    },
+    "lat": 48.0030258,
+    "lon": 10.9260008,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Lengenfeld",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-stoffen",
+    "name": "Freiwillige Feuerwehr Stoffen",
+    "adresse": {
+      "strasse": "Kirchenstraße 7a",
+      "plz": "86932",
+      "ort": "Pürgen"
+    },
+    "lat": 48.0039697,
+    "lon": 10.9071964,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Stoffen 43/1",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-ummendorf",
+    "name": "Freiwillige Feuerwehr Ummendorf",
+    "adresse": {
+      "strasse": "Lindenweg 5",
+      "plz": "86932",
+      "ort": "Pürgen"
+    },
+    "lat": 48.011096,
+    "lon": 10.9098033,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Ummendorf 46/1",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-reichling",
+    "name": "Freiwillige Feuerwehr Reichling",
+    "adresse": {
+      "strasse": "Vorstadt 1A",
+      "plz": "86934",
+      "ort": "Reichling"
+    },
+    "lat": 47.9205602,
+    "lon": 10.9303525,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Reichling 40/1",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Rotkreuz Reichling 71/1",
+        "typ": "RTW"
+      },
+      {
+        "funkrufname": "Florian Reichling 48/1",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-ludenhausen",
+    "name": "Freiwillige Feuerwehr Ludenhausen",
+    "adresse": {
+      "strasse": "Abtsrieder Str. 2",
+      "plz": "86934",
+      "ort": "Reichling"
+    },
+    "lat": 47.9336002,
+    "lon": 10.963981,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Ludenhausen",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-rott",
+    "name": "Freiwillige Feuerwehr Rott",
+    "adresse": {
+      "strasse": "Landsberger Str. 19",
+      "plz": "86935",
+      "ort": "Rott"
+    },
+    "lat": 47.9087605,
+    "lon": 10.9708034,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Rott 40/01",
+        "typ": "LF"
+      },
+      {
+        "funkrufname": "Florian Rott 43/01",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-scheuring",
+    "name": "Freiwillige Feuerwehr Scheuring",
+    "adresse": {
+      "strasse": "Buchenweg 13",
+      "plz": "86937",
+      "ort": "Scheuring"
+    },
+    "lat": 48.1709961,
+    "lon": 10.8906703,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Scheuring 11/1",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Scheuring 40/1",
+        "typ": "LF"
+      }
+    ]
+  },
+  {
+    "id": "ff-schondorf",
+    "name": "Freiwillige Feuerwehr Schondorf a. A.",
+    "adresse": {
+      "strasse": "Bahnhofstraße 112",
+      "plz": "86938",
+      "ort": "Schondorf am Ammersee"
+    },
+    "lat": 48.0537988,
+    "lon": 11.0898423,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Schondorf 11/01",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Schondorf 40/01",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Schondorf 43/01",
+        "typ": "LF"
+      },
+      {
+        "funkrufname": "Florian Schondorf 66/01",
+        "typ": "CBRN-ErkW"
+      },
+      {
+        "funkrufname": "Florian Schondorf 79/01",
+        "typ": "FR"
+      },
+      {
+        "funkrufname": "Florian Schondorf 99/01",
+        "typ": "Boot"
+      }
+    ]
+  },
+  {
+    "id": "ff-schwifting",
+    "name": "Freiwillige Feuerwehr Schwifting",
+    "adresse": {
+      "strasse": "Dorfstraße 5",
+      "plz": "86940",
+      "ort": "Schwifting"
+    },
+    "lat": 48.046082,
+    "lon": 10.927812,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Schwifting 14/1",
+        "typ": "MTW"
+      },
+      {
+        "funkrufname": "Florian Schwifting 47/1",
+        "typ": "MLF"
+      }
+    ]
+  },
+  {
+    "id": "ff-thaining",
+    "name": "Freiwillige Feuerwehr Thaining",
+    "adresse": {
+      "strasse": "Molkereiweg 5",
+      "plz": "86943",
+      "ort": "Thaining"
+    },
+    "lat": 47.9721801,
+    "lon": 10.9549398,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Thaining 42/01",
+        "typ": "HLF"
+      }
+    ]
+  },
+  {
+    "id": "ff-utting",
+    "name": "Freiwillige Feuerwehr Utting a. A.",
+    "adresse": {
+      "strasse": "Maria-Theresia-Straße 12a",
+      "plz": "86919",
+      "ort": "Utting am Ammersee"
+    },
+    "lat": 48.0238231,
+    "lon": 11.092814,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Utting 11/1",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Utting 40/1",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Utting 43/1",
+        "typ": "LF"
+      },
+      {
+        "funkrufname": "Florian Utting 58/1",
+        "typ": "GW-L"
+      }
+    ]
+  },
+  {
+    "id": "ff-pflugdorf-stadl",
+    "name": "Freiwillige Feuerwehr Pflugdorf-Stadl",
+    "adresse": {
+      "strasse": "Rathausstraße 37",
+      "plz": "86946",
+      "ort": "Vilgertshofen"
+    },
+    "lat": 47.9653988,
+    "lon": 10.9134944,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Pflugdorf-Stadl 67/1",
+        "typ": "GW Dekon-P"
+      }
+    ]
+  },
+  {
+    "id": "ff-mundraching",
+    "name": "Freiwillige Feuerwehr Mundraching",
+    "adresse": {
+      "strasse": "Flößerstraße 20",
+      "plz": "86946",
+      "ort": "Vilgertshofen"
+    },
+    "lat": 47.9576736,
+    "lon": 10.8753988,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Mundraching 46/1",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-issing",
+    "name": "Freiwillige Feuerwehr Issing",
+    "adresse": {
+      "strasse": "Am Eichberg 2",
+      "plz": "86946",
+      "ort": "Vilgertshofen"
+    },
+    "lat": 47.9585004,
+    "lon": 10.9457479,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Issing 46/1",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-weil",
+    "name": "Freiwillige Feuerwehr Weil",
+    "adresse": {
+      "strasse": "Hochstraße 3",
+      "plz": "86947",
+      "ort": "Weil"
+    },
+    "lat": 48.1198139,
+    "lon": 10.9207587,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Weil 11/01",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Weil 40/01",
+        "typ": "HLF"
+      }
+    ]
+  },
+  {
+    "id": "ff-beuerbach",
+    "name": "Freiwillige Feuerwehr Beuerbach",
+    "adresse": {
+      "strasse": "Weiler Straße 2",
+      "plz": "86947",
+      "ort": "Weil"
+    },
+    "lat": 48.1335427,
+    "lon": 10.920909,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Beuerbach 44/1",
+        "typ": "TSF"
+      }
+    ]
+  },
+  {
+    "id": "ff-geretshausen",
+    "name": "Freiwillige Feuerwehr Geretshausen",
+    "adresse": {
+      "strasse": "Oberberger Straße 11",
+      "plz": "86947",
+      "ort": "Weil"
+    },
+    "lat": 48.1122234,
+    "lon": 10.9389655,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Geretshausen 44/1",
+        "typ": "TSF-L"
+      }
+    ]
+  },
+  {
+    "id": "ff-petzenhausen",
+    "name": "Freiwillige Feuerwehr Petzenhausen",
+    "adresse": {
+      "strasse": "Schlettstraße 2",
+      "plz": "86947",
+      "ort": "Weil"
+    },
+    "lat": 48.1216375,
+    "lon": 10.9486973,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Petzenhausen 46/1",
+        "typ": "TSF-W"
+      }
+    ]
+  },
+  {
+    "id": "ff-windach",
+    "name": "Freiwillige Feuerwehr Windach",
+    "adresse": {
+      "strasse": "Am Schlosspark 1",
+      "plz": "86949",
+      "ort": "Windach"
+    },
+    "lat": 48.0680396,
+    "lon": 11.0364501,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Windach 11/1",
+        "typ": "MZF"
+      },
+      {
+        "funkrufname": "Florian Windach 14/1",
+        "typ": "MTW"
+      },
+      {
+        "funkrufname": "Florian Windach 40/1",
+        "typ": "HLF"
+      },
+      {
+        "funkrufname": "Florian Windach 21/1",
+        "typ": "TLF"
+      },
+      {
+        "funkrufname": "Rotkreuz Windach 71/1",
+        "typ": "RTW"
+      }
+    ]
+  },
+  {
+    "id": "ff-schoeffelding",
+    "name": "Freiwillige Feuerwehr Schöffelding",
+    "adresse": {
+      "strasse": "Peter-Endres-Str. 1",
+      "plz": "86949",
+      "ort": "Windach"
+    },
+    "lat": 48.0661024,
+    "lon": 10.9919705,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Schöffelding 47/01",
+        "typ": "MLF"
+      },
+      {
+        "funkrufname": "Florian Schöffelding 44/01",
+        "typ": "TSF"
+      }
+    ]
+  },
+  {
+    "id": "ff-hechenwang",
+    "name": "Freiwillige Feuerwehr Hechenwang",
+    "adresse": {
+      "strasse": "Flächeweg 2",
+      "plz": "86949",
+      "ort": "Windach"
+    },
+    "lat": 48.0509411,
+    "lon": 11.0579375,
+    "typ": "FF",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Florian Hechenwang 44/1",
+        "typ": "TSF"
+      }
+    ]
+  },
+  {
+    "id": "rd-brk-landsberg",
+    "name": "BRK Rettungswache Landsberg",
+    "adresse": {
+      "strasse": "Max-Friesenegger-Str. 45",
+      "plz": "86899",
+      "ort": "Landsberg am Lech"
+    },
+    "lat": 48.0455321,
+    "lon": 10.8681707,
+    "typ": "RD",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Rotkreuz Landsberg 10/2",
+        "typ": "KdoW-RD"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 71/1",
+        "typ": "RTW"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 71/2",
+        "typ": "RTW"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 72/1",
+        "typ": "KTW"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 72/2",
+        "typ": "KTW"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 76/1",
+        "typ": "NEF"
+      }
+    ]
+  },
+  {
+    "id": "rd-brk-diessen",
+    "name": "BRK Rettungswache Dießen",
+    "adresse": {
+      "strasse": "Krankenhausstraße 7",
+      "plz": "86911",
+      "ort": "Dießen am Ammersee"
+    },
+    "lat": 47.9446189,
+    "lon": 11.1033962,
+    "typ": "RD",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Rotkreuz Dießen 71/1",
+        "typ": "RTW"
+      },
+      {
+        "funkrufname": "Rotkreuz Dießen 76/1",
+        "typ": "NEF"
+      }
+    ]
+  },
+  {
+    "id": "seg-brk-landsberg",
+    "name": "BRK Bereitschaft Landsberg",
+    "adresse": {
+      "strasse": "Celsiusstraße 17d",
+      "plz": "86899",
+      "ort": "Landsberg am Lech"
+    },
+    "lat": 48.0666458,
+    "lon": 10.8439298,
+    "typ": "SEG",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Rotkreuz Landsberg 10/1",
+        "typ": "KdoW-RD"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 41/71-72",
+        "typ": "RTW"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 79/1",
+        "typ": "FR"
+      },
+      {
+        "funkrufname": "Kater Landsberg 13/1",
+        "typ": "ELW-RD"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 41/71-70",
+        "typ": "RTW"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 71/73-01",
+        "typ": "NKTW"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 53/1",
+        "typ": "GW-SAN"
+      },
+      {
+        "funkrufname": "Rotkreuz Landsberg 6/38/1",
+        "typ": "GW-Betreuung"
+      }
+    ]
+  },
+  {
+    "id": "seg-mhd-kaufering",
+    "name": "MHD Bereitschaft Kaufering",
+    "adresse": {
+      "strasse": "Landrat-Müller-Hahl-Str. 11",
+      "plz": "86916",
+      "ort": "Kaufering"
+    },
+    "lat": 48.0891829,
+    "lon": 10.874308,
+    "typ": "SEG",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Johannes Kaufering 79/1",
+        "typ": "FR"
+      },
+      {
+        "funkrufname": "Johannes Landsberg 61/72/70",
+        "typ": "KTW"
+      },
+      {
+        "funkrufname": "Johannes Landsberg 61/56/1",
+        "typ": "GW-Verpflegung"
+      }
+    ]
+  },
+  {
+    "id": "rd-brk-kaufering",
+    "name": "BRK Rettungswache Kaufering",
+    "adresse": {
+      "strasse": "Landrat-Müller-Hahl-Straße 15A",
+      "plz": "86916",
+      "ort": "Kaufering"
+    },
+    "lat": 48.0872491,
+    "lon": 10.8734458,
+    "typ": "RD",
+    "einsatzmittel": [
+      {
+        "funkrufname": "Rotkreuz Landsberg 71/3",
+        "typ": "RTW"
+      }
+    ]
+  }
+]
